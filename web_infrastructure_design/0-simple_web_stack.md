@@ -57,4 +57,5 @@ The single-server architecture cannot handle traffic growth:
 - Resource Contention: All services (web server, application server, database) compete for the same finite resources (CPU, memory, I/O)
 - Traffic Spike Vulnerability: Sudden traffic increases can overwhelm the server, causing slow performance or complete crashes
 - Database Bottleneck: The single database instance becomes a performance choke point under heavy load
+
 This infrastructure represents a basic starting point but lacks the reliability, maintainability, and scalability needed for production applications with any significant traffic or availability requirements.
