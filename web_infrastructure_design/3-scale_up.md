@@ -57,10 +57,10 @@
        - Resource focus: CPU, memory for code execution
        - Scaling trigger: Application complexity/user actions
 
-  - Database Servers:
-    - Optimized for: Data storage and retrieval
-    - Resource focus: Disk I/O, memory for caching
-    - Scaling trigger: Data size/query volume
+   - Database Servers:
+     - Optimized for: Data storage and retrieval
+     - Resource focus: Disk I/O, memory for caching
+     - Scaling trigger: Data size/query volume
 
 3. Security Improvements
   - Network Segmentation: Each tier in separate subnets
