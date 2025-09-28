@@ -1,14 +1,14 @@
 # Specifics About This Infrastructure
 ### Additional Element
 1. Load Balancer (HAProxy)
-- Purpose: Distributes incoming traffic across multiple web servers
-- Benefit: Prevents overloading a single server and provides high availability
-- Result: If one web server fails, traffic automatically routes to the healthy server
+  - Purpose: Distributes incoming traffic across multiple web servers
+  - Benefit: Prevents overloading a single server and provides high availability
+  - Result: If one web server fails, traffic automatically routes to the healthy server
 
 2. Second Web/Application Server
-- Purpose: Provides redundancy and increases capacity
-- Benefit: Handles more concurrent users and provides failover capability
-- Result: Eliminates the web/application tier as a single point of failure
+  - Purpose: Provides redundancy and increases capacity
+  - Benefit: Handles more concurrent users and provides failover capability
+  - Result: Eliminates the web/application tier as a single point of failure
 
 3. Database Primary-Replica Cluster
 - Purpose: Provides database redundancy and improves read performance
