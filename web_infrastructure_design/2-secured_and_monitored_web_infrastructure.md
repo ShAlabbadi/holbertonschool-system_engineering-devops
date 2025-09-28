@@ -1,9 +1,9 @@
 # Additional element:
 1. Three Firewalls
-  - Firewall 1 (Load Balancer): Protects the entry point, only allows HTTPS (443) and SSH (22)
-  - Firewall 2 (Web Tier): Controls traffic between load balancer and web servers, restricts to HTTP (80)
-  - Firewall 3 (Database): Protects database layer, only allows MySQL (3306) from web servers
-  - Benefit: Defense in depth, minimizes attack surface
+  1.1 Firewall 1 (Load Balancer): Protects the entry point, only allows HTTPS (443) and SSH (22)
+  1.2 Firewall 2 (Web Tier): Controls traffic between load balancer and web servers, restricts to HTTP (80)
+  1.3 Firewall 3 (Database): Protects database layer, only allows MySQL (3306) from web servers
+  1. - Benefit: Defense in depth, minimizes attack surface
 
 2. SSL Certificate for HTTPS
   - Purpose: Encrypts all communication between users and the website
