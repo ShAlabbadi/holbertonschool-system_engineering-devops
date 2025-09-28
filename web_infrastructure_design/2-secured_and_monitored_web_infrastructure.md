@@ -67,13 +67,13 @@ HTTPS provides:
 4. Data Loss Risk: Asynchronous replication may lose recent writes during failure
    
 ## Why having servers with all the same components (database, web server and application server) might be a problem?
-###Architectural Issues:
+### Architectural Issues:
 1. Resource Contention: Database competes for same resources as web/application server
 2. Security Risk: Database exposed to web-facing servers
 3. Scaling Inefficiency: Cannot scale components independently
 4. Performance Impact: Database I/O intensive operations affect web server performance
 
-###Problems by Component:
+### Problems by Component:
 - Database on Web Server:
   - Security: Direct exposure to web traffic
   - Performance: I/O contention with application
