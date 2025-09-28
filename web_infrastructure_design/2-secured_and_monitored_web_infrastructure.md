@@ -40,11 +40,10 @@ HTTPS provides:
 ## How the monitoring tool is collecting data?
 1. Agents/Collectors: Monitoring clients installed on each server
 2. Data Collection:
-
-2.1 System metrics (CPU, memory, disk I/O)
-2.2 Application metrics (response times, error rates)
-2.3 Web server logs (Nginx access/error logs)
-2.4 Database metrics (queries, connections, replication status)
+  2.1 System metrics (CPU, memory, disk I/O)
+  2.2 Application metrics (response times, error rates)
+  2.3 Web server logs (Nginx access/error logs)
+  2.4 Database metrics (queries, connections, replication status)
 3. Transport: Secure connection to external monitoring service (Sumo Logic)
 4. Analysis: Data aggregated, visualized, and alerted on in dashboard
 
