@@ -55,15 +55,6 @@ HTTPS provides:
 4. Set up real-time dashboard with QPS graph
 5. Configure alerts for abnormal QPS spikes/drops
 
-- Example Nginx log format:
-'log_format qps '$remote_addr - $remote_user [$time_local] "$request" '
-               '$status $body_bytes_sent "$http_referer" "$http_user_agent"';'
-
-- Monitoring query (pseudo):
-SELECT COUNT(*) FROM nginx_logs 
-WHERE timestamp >= NOW() - INTERVAL 1 SECOND
-GROUP BY FLOOR(UNIX_TIMESTAMP(timestamp))
-
 # issues are with this infrastructure:
 
 ## Why terminating SSL at the load balancer level is an issue?
