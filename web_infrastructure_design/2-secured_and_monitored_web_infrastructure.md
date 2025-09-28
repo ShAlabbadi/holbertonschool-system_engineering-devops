@@ -1,9 +1,9 @@
 # Additional element:
 1. Three Firewalls
-- Firewall 1 (Load Balancer): Protects the entry point, only allows HTTPS (443) and SSH (22)
-- Firewall 2 (Web Tier): Controls traffic between load balancer and web servers, restricts to HTTP (80)
-- Firewall 3 (Database): Protects database layer, only allows MySQL (3306) from web servers
-- Benefit: Defense in depth, minimizes attack surface
+  - Firewall 1 (Load Balancer): Protects the entry point, only allows HTTPS (443) and SSH (22)
+  - Firewall 2 (Web Tier): Controls traffic between load balancer and web servers, restricts to HTTP (80)
+  - Firewall 3 (Database): Protects database layer, only allows MySQL (3306) from web servers
+  - Benefit: Defense in depth, minimizes attack surface
 
 3. SSL Certificate for HTTPS
 - Purpose: Encrypts all communication between users and the website
@@ -40,10 +40,10 @@ HTTPS provides:
 ## How the monitoring tool is collecting data?
 1. Agents/Collectors: Monitoring clients installed on each server
 2. Data Collection:
-  2.1 System metrics (CPU, memory, disk I/O)
-  2.2 Application metrics (response times, error rates)
-  2.3 Web server logs (Nginx access/error logs)
-  2.4 Database metrics (queries, connections, replication status)
+  - System metrics (CPU, memory, disk I/O)
+  - Application metrics (response times, error rates)
+  - Web server logs (Nginx access/error logs)
+  - Database metrics (queries, connections, replication status)
 3. Transport: Secure connection to external monitoring service (Sumo Logic)
 4. Analysis: Data aggregated, visualized, and alerted on in dashboard
 
