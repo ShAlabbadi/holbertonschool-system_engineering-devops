@@ -46,27 +46,28 @@
      - Security: Isolated from web-facing servers
 
 ## 4. Additional element, why you are adding it
-- Web Servers:
-  - Optimized for: High concurrent connections
-  - Resource focus: Network I/O, SSL processing
-  - Scaling trigger: HTTP request volume
+1. Performance Benefits
+  - Web Servers:
+    - Optimized for: High concurrent connections
+    - Resource focus: Network I/O, SSL processing
+    - Scaling trigger: HTTP request volume
 
-- Application Servers:
-  - Optimized for: Business logic execution
-  - Resource focus: CPU, memory for code execution
-  - Scaling trigger: Application complexity/user actions
+  - Application Servers:
+    - Optimized for: Business logic execution
+    - Resource focus: CPU, memory for code execution
+    - Scaling trigger: Application complexity/user actions
 
-- Database Servers:
-  - Optimized for: Data storage and retrieval
-  - Resource focus: Disk I/O, memory for caching
-  - Scaling trigger: Data size/query volume
+  - Database Servers:
+    - Optimized for: Data storage and retrieval
+    - Resource focus: Disk I/O, memory for caching
+    - Scaling trigger: Data size/query volume
 
-- Security Improvements
+2. Security Improvements
   - Network Segmentation: Each tier in separate subnets
   - Reduced Attack Surface: Database not exposed to web tier
   - Specialized Hardening: Each server type can be specifically secured
 
-- Operational Advantages
+3. Operational Advantages
   - Independent Scaling: Scale each tier based on its specific needs
   - Targeted Maintenance: Update application without touching web servers
   - Specialized Monitoring: Different metrics for each tier
