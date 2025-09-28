@@ -25,12 +25,12 @@ Algorithm Used: Round Robin
 ### Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
 This Infrastructure: Active-Active
 - Active-Active: Both web servers are actively handling traffic simultaneously
--- Advantages: Maximizes resource utilization, better performance
--- Disadvantages: Requires session management for stateful applications
+  - Advantages: Maximizes resource utilization, better performance
+  - Disadvantages: Requires session management for stateful applications
 
 - Active-Passive Alternative:
--- Active-Passive: Only one server handles traffic while the other sits idle as a standby
--- Advantages: Simpler configuration, automatic failover
+  - Active-Passive: Only one server handles traffic while the other sits idle as a standby
+  - Advantages: Simpler configuration, automatic failover
 
 Disadvantages: Wasted resources, lower capacity utilization
 ### How a database Primary-Replica (Master-Slave) cluster works?
