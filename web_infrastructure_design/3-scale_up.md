@@ -1,4 +1,14 @@
-# Why Each Additional Element Was Added
+# Application Server vs Web Server - Infrastructure Design
+1. Web Server
+- Purpose: Handles HTTP/HTTPS requests, serves static content, acts as reverse proxy
+- Examples: Nginx, Apache
+- Key Role: Request routing, SSL termination, static file serving, load balancing
+
+2. Application Server
+- Purpose: Executes business logic, processes dynamic content, runs application code
+- Examples: Gunicorn (Python), PM2 (Node.js), Tomcat (Java), Unicorn (Ruby)
+- Key Role: Business logic execution, database interaction, session management
+
 ## 1. Additional Server
 - Purpose: Increased capacity and redundancy across all tiers
 - Benefits:
