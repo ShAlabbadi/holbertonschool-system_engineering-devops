@@ -36,7 +36,7 @@ This Infrastructure: Active-Active
 ### How a database Primary-Replica (Master-Slave) cluster works?
 1. Primary Node (Master): Handles all write operations (INSERT, UPDATE, DELETE)
 2. Replica Node (Slave): Continuously copies data changes from the Primary
-# 3. Replication Process :
+3. Replication Process :
   - Primary writes changes to its binary log
   - Replica reads the binary log and applies the same changes
   - Process happens asynchronously in near real-time
