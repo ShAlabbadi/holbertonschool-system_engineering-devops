@@ -1,5 +1,5 @@
 # What is a server?
-### A server is a dedicated computer or system that provides resources, data, services, or programs to other computers (called clients) over a network. In this infrastructure, it's a single physical or virtual machine that hosts the entire web application stack - including the web server, application server, application code, and database.
+A server is a dedicated computer or system that provides resources, data, services, or programs to other computers (called clients) over a network. In this infrastructure, it's a single physical or virtual machine that hosts the entire web application stack - including the web server, application server, application code, and database.
 
 # What is the role of the domain name?
 ### The domain name foobar.com serves as a human-readable address that maps to the server's numerical IP address (8.8.8.8). It functions like a contact name in your phonebook - instead of memorizing the technical IP address, users can remember the simple domain name to access the website.
